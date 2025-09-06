@@ -44,8 +44,8 @@ This repository provides a pipeline to process video files by extracting frames,
 ## ⚙️ Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/video-emotion-extractor.git
-   cd video-emotion-extractor
+   git clone https://github.com/anirbanpalDSC/visual-sentiment.git
+   cd visual-sentiment
    ```
 2. Create a virtual environment and install dependencies:
    ```bash
@@ -94,7 +94,7 @@ The current model can detect the **7 basic emotions**:
 ---
 
 ## 🔧 Dependencies
-- Python 3.8+
+- Python 3.10+
 - [OpenCV](https://opencv.org/)
 - [TensorFlow / PyTorch](https://pytorch.org/) (for emotion detection model)
 - Pre-trained emotion recognition model (to be configured in `detect_emotions.py`)
@@ -135,7 +135,7 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 ## 🙏 Acknowledgments
 
 Sample video used in this repository:
-- ["The 7 Basic Emotions - Do you recognise all facial expressions?"](https://www.youtube.com/watch?v=YOUR_VIDEO_ID) on YouTube.  
+- ["The 7 Basic Emotions - Do you recognise all facial expressions?"](https://www.youtube.com/watch?v=embYkODkzcs) on YouTube.  
 All rights belong to the original creator.
 
 ---
