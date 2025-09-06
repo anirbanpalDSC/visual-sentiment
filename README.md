@@ -24,11 +24,17 @@ This repository provides a pipeline to process video files by extracting frames,
 │   ├── input/              # Raw input videos
 │   ├── frames_output/      # Extracted frames
 │   └── processed/          # Frames with detected faces & emotions
-├── scripts/
+├── src/
 │   ├── extract_frames.py   # Script for frame extraction
 │   ├── detect_faces.py     # Script for face detection
 │   ├── detect_emotions.py  # Script for emotion recognition
 │   └── pipeline.py         # Main pipeline combining all steps
+├── notebooks/
+│   ├── builder.ipynb       # Building blocks and tests
+├── config/
+│   ├── config.py           # Configuration file for static resources
+├── ui/
+│   ├── ui.py               # Streamlit UI
 ├── requirements.txt        # Python dependencies
 └── README.md               # Project documentation
 ```
