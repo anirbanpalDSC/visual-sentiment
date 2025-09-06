@@ -1,0 +1,14 @@
+# Core dependencies
+opencv-python
+numpy
+
+# Deep learning frameworks (choose one depending on your setup)
+torch
+torchvision
+
+# Face detection & emotion recognition
+deepface
+
+# Optional utilities
+matplotlib
+tqdm
